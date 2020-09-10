@@ -1,0 +1,20 @@
+/* 全局样式表 */
+html, body, #app {
+    width: 100%;
+    height: 100%;
+    font-family: PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+    -ms-overflow-style:none;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    overflow: hidden;
+    user-select: none;
+}
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* 去除a标签在移动端点击时的高亮 */
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
